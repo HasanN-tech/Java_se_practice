@@ -39,7 +39,21 @@ public class Main {
     l3.add(40);
     l3.add(50);
     System.out.println(l3);
+    System.out.println("______________________________________________________");
+    Vector v= new Vector(6,4);
+      v.addElement(32);
+      v.add(3);
+      v.addElement(5);
+      v.addElement(72);
+    System.out.println(v.capacity());
+    v.addElement(17);
+    v.addElement(43);
+    v.addElement(90);
+    v.addElement(17);
+    v.addElement(43);
+    v.addElement(90);
+    System.out.println(v.capacity());
+    System.out.println(v);
   }
-
-  }
+ }
 }
