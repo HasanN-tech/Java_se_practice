@@ -54,7 +54,7 @@ public class Main {
     v.addElement(43);
     v.addElement(90);
     System.out.println(v.capacity());
-    System.out.println(v);
+    System.out.println(v); 
   }
  }
 }
