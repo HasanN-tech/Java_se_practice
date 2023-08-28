@@ -39,6 +39,7 @@ public class Main {
     l3.add(40);
     l3.add(50);
     System.out.println(l3);
+
     System.out.println("______________________________________________________");
     Vector v= new Vector(6,4);
       v.addElement(32);
